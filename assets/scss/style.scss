@@ -32,8 +32,16 @@ CSS table of content
 /*====== Reset style ======*/
 @import './helper/reset.all';
 
+/*====== button style ======*/
+@import './component/btn-style';
+
 /*====== header style ======*/
 @import './sections/header/header';
 
+
 /*====== Banner style ======*/
 @import './sections/banners/index-banner';
+
+
+/*====== Index style ======*/
+@import './sections/index/feature';
