@@ -32,8 +32,11 @@ CSS table of content
 /*====== Reset style ======*/
 @import './helper/reset.all';
 
-/*====== button style ======*/
+/*====== Component style ======*/
 @import './component/btn-style';
+@import './component/section-title';
+
+
 
 /*====== header style ======*/
 @import './sections/header/header';
@@ -45,3 +48,9 @@ CSS table of content
 
 /*====== Index style ======*/
 @import './sections/index/feature';
+
+/*====== about us style ======*/
+@import './sections/about-us/about-us';
+
+/*====== services style ======*/
+@import './sections/services/services';
