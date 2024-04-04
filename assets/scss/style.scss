@@ -51,6 +51,11 @@ CSS table of content
 
 /*====== about us style ======*/
 @import './sections/about-us/about-us';
+@import './sections/about-us/choseus';
+
+/*====== team style ======*/
+@import './sections/team/team';
 
 /*====== services style ======*/
 @import './sections/services/services';
+@import './sections/services/serivce-video';
