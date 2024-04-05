@@ -140,6 +140,20 @@ button {
 .slick-track{
     cursor: grab;
 }
+.avater{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    img{
+        position: absolute;
+        height: 100%;
+        width: 100%;object-fit: cover
+
+    }
+}
 
 @media (min-width: 1440px) {
     .container{

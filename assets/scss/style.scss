@@ -50,6 +50,7 @@ CSS table of content
 /*====== Index style ======*/
 @import './sections/index/feature';
 @import './sections/index/recent-project';
+@import './sections/index/testimonials';
 
 /*====== about us style ======*/
 @import './sections/about-us/about-us';
@@ -64,3 +65,7 @@ CSS table of content
 /*====== services style ======*/
 @import './sections/services/services';
 @import './sections/services/serivce-video';
+
+
+/*====== Footer style ======*/
+@import './sections/footer/footer';
