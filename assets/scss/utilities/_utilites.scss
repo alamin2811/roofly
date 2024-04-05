@@ -137,6 +137,9 @@ button {
 .bg-primary{
     background: color(primaryColor) !important;
 }
+.slick-track{
+    cursor: grab;
+}
 
 @media (min-width: 1440px) {
     .container{

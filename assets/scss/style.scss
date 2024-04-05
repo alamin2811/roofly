@@ -35,6 +35,7 @@ CSS table of content
 /*====== Component style ======*/
 @import './component/btn-style';
 @import './component/section-title';
+@import './component/funfect';
 
 
 
@@ -48,6 +49,7 @@ CSS table of content
 
 /*====== Index style ======*/
 @import './sections/index/feature';
+@import './sections/index/recent-project';
 
 /*====== about us style ======*/
 @import './sections/about-us/about-us';
