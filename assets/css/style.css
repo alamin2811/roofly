@@ -972,6 +972,109 @@ h6 {
   text-overflow: ellipsis;
 }
 
+/*====== Blog style ======*/
+.latest-blog-section {
+  padding: 110px 0px;
+}
+
+.latest-blog-content {
+  margin-top: 50px;
+}
+
+.blog-card {
+  background: #ffffff;
+  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+.blog-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 2px 0px;
+  background: transparent;
+  transition: 0.4s;
+}
+.blog-card .blog-img {
+  position: relative;
+}
+.blog-card .blog-img::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-bottom: 147px solid transparent;
+  border-right: 14px solid transparent;
+  border-left: 152px solid #ffffff;
+  z-index: 0;
+}
+.blog-card .blog-img::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-bottom: 130px solid transparent;
+  border-right: 14px solid transparent;
+  border-left: 135px solid #171717;
+  z-index: 1;
+  transition: 0.4s;
+}
+.blog-card .blog-img .blog-date {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 2;
+}
+.blog-card .blog-img .blog-date h2 {
+  color: #ffffff;
+  margin: 0px;
+}
+.blog-card .blog-img .blog-date h5 {
+  color: #ffffff;
+  margin: 0px;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+}
+.blog-card .blog-text {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+.blog-card .blog-text p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.blog-card .blog-text p span {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.blog-card .blog-text h4 {
+  margin-top: 20px;
+  transition: 0.4s;
+}
+.blog-card:hover::after {
+  background: #EC3848;
+}
+.blog-card:hover .blog-img::before {
+  border-left: 135px solid #EC3848;
+}
+.blog-card:hover .blog-text h4 {
+  color: #EC3848;
+}
+
 /*====== team style ======*/
 .team-section {
   padding: 110px 0px;
