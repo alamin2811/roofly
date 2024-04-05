@@ -42,14 +42,14 @@
                     align-items: center;
                     justify-content: center;
                     transition: 0.4s;
-                    &:hover{
+                    &:hover, &.active{
                         background: color(primaryColor);
                     }
                 }
             }
         }
     }
-
+    
     .header-btn {
         padding: 15px 30px;
         display: flex;
