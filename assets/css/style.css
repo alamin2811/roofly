@@ -376,6 +376,37 @@ h6 {
   line-height: 133%;
 }
 
+.breadcumbs-section {
+  background: url(../images/bg/breadcumbs-bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.breadcumbs-section .overlay {
+  background: rgba(23, 23, 23, 0.768627451);
+  padding: 110px 0px;
+}
+
+.breadcumbs-content {
+  color: #FFFFFF;
+}
+.breadcumbs-content .page-title {
+  color: #FFFFFF;
+  font-weight: 700;
+  margin: 0px;
+}
+.breadcumbs-content .page-detail {
+  margin: 30px 0px;
+}
+.breadcumbs-content .breadcumbs a {
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.4s;
+}
+.breadcumbs-content .breadcumbs a:hover {
+  color: #EC3848;
+}
+
 /*====== header style ======*/
 .header-section {
   background: #171717;
@@ -946,6 +977,7 @@ h6 {
 /*====== about us style ======*/
 .about-us-section {
   padding-bottom: 110px;
+  padding-top: 110px;
 }
 
 .about-us-left-content {
@@ -1303,6 +1335,7 @@ h6 {
 /*====== services style ======*/
 .service-section {
   padding-bottom: 110px;
+  padding-top: 110px;
 }
 
 .service-content {
